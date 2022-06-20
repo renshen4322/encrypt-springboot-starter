@@ -8,11 +8,11 @@
         <version>2.6.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>encrypt.springboot.starter</groupId>
+    <groupId>org.javaboy</groupId>
     <artifactId>encrypt-springboot-starter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>encrypt-springboot-starter</name>
-    <description>Demo project for Spring Boot</description>
+    <description>SpringBoot加密工具类</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -27,21 +27,6 @@
             <scope>provided</scope>
             <version>2.6.5</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
-
-    <build>
-        <finalName>encrypt-springboot-starter</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
